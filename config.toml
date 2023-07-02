@@ -48,16 +48,16 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Members"
+      url = "members"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Research"
+      url = "research"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Publications"
+      url = "publications"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -66,15 +66,15 @@ disqusShortname = ""
     #    name = "NameOfLink"
     #    url = "UrlOfLink"
 
-    # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    # # Button Style 1
+    # [[params.navigation.button1]]
+    #   name = "Get Started"
+    #   url = "blogs"
 
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+    # # Button Style 2
+    # [[params.navigation.button2]]
+    #   name = "Log In"
+    #   url = "#"
 
 
   # Banner section
@@ -83,7 +83,7 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Hi, This is the STARS Lab"
     subtitle = "We are a group of researchers working on applying artificial intelligence and machine learning techniques to scientific problems."
-    buttonText = "Explore ..."
+    buttonText = "Projects"
 
 
   # Tiles Section
@@ -92,40 +92,29 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "MLOps"
+      subtitle = "Machine Learning Operations"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "categories/mlops"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "SciML"
+      subtitle = "Scientific Machine Learning"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "categories/sciml"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "HPC"
+      subtitle = "High Performance Computing"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "categories/hpc"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "FEM"
+      subtitle = "Finite Element Methods"
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "categories/fem"
 
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -144,8 +133,8 @@ disqusShortname = ""
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    buttonText = "Research"
+    url = "research"
 
 
   # Contact section
@@ -172,22 +161,22 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "sashi@iisc.ac.in"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    phone = "(+91) 966-368-1341"
 
     [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    title = "STARS Lab"
+    street = "Department of Computational and Data Sciences, Indian Institute of Science (IISc)"
+    city = "Bengaluru, Karnataka"
+    country = "India - 560012"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "STARS, CDS, IISc"
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -216,6 +205,11 @@ disqusShortname = ""
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+      text = "Department: "
+      url= "https://cds.iisc.ac.in/"
+      alt = "CDS"
+
+    [[params.footer.quicklinks]]
+      text = "University: "
+      url= "https://iisc.ac.in/"
+      alt = "IISc Bangalore"
