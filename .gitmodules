@@ -1,0 +1,9 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+[submodule "themes/forty"]
+	path = themes/forty
+	url = https://github.com/MarcusVirg/forty
+[submodule "themes/up-business"]
+	path = themes/up-business
+	url = https://gitlab.com/writeonlyhugo/up-business-theme.git
