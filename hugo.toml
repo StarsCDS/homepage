@@ -127,12 +127,19 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "About"
+    subtitle = """
+STARS (Scientific Machine Learning and Operations) is a research group at the forefront of scientific computing, machine learning, and high-performance computing. Our primary focus revolves around two pivotal areas: Scientific Machine Learning (SciML) and Machine Learning Operations (MLOps). Within SciML, we are pioneers in developing innovative machine learning algorithms to solve complex closure problems, harnessing the power of Physics-informed neural networks (PINNs) to augment numerical schemes, and utilizing AI-based techniques to estimate uncertain model parameters. Additionally, we leverage data-driven approaches to revolutionize traditional scientific simulations, enhancing their accuracy and efficiency.
+
+
+In parallel, our emphasis on MLOps drives us to push the boundaries of scalable ML algorithms and distributed training techniques. We delve into the realm of cloud computing to enable seamless deployment, ensuring ML models can handle large-scale datasets effortlessly. With an unwavering commitment to robustness and efficiency, we establish ML model and data version control, design and implement CI/CD pipelines, and streamline the entire ML deployment and operations process. By placing a strong focus on MLOps, we empower organizations to effectively integrate machine learning into their workflows, facilitating real-world applications and tangible impact.
+
+
+While SciML and MLOps form the crux of our research, we also excel in other areas such as Data Science, where we pioneer anomaly detection, predictive behavior modeling, and personalized recommender systems with a focus on fintech applications. Additionally, our expertise in Computational Science extends to finite element analysis, multiphase flows, fluid-structure interactions, turbulent flows, and epidemiological events, employing hybrid CPU-GPU parallel algorithms and hardware-aware scalable parallel implementations.
+
+
+In summary, STARS is a leading research group dedicated to advancing scientific computing, machine learning, and high-performance computing. Our unwavering focus on Scientific Machine Learning (SciML) and Machine Learning Operations (MLOps) positions us at the forefront of cutting-edge research, driving innovation and delivering practical solutions to complex problems in academia and industry.
+"""
     buttonText = "Research"
     url = "research"
 
